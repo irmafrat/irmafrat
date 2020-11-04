@@ -5,44 +5,35 @@
     <meta charset="utf-8">
     <title>Irmarie Fraticelli Rodriguez</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   </head>
     <body>
-    <a class = "skip" href="#skip">Skip to Main Content</a>
     <header> 
-        <nav class="nav_section">
-            <ul class= "nav_links">
-                <li class="nav_item"><a href="aboutme.html">About</a></li>
-                <div class= "dropdown">
-                    <button class="dropbtn">Portfolio</button>
-                    <div class="dropdown-content">
-                        <a href="archivescas.html">Archives & CAS</a>
-                        <a href="ux.html">UX Research</a>
-                        <a href="digitalhumanities.html">Digital Humanities</a>
-                    </div>
-                </div>
-                <li class="nav_item"><a href="publications.html">Publications & Conferences</a></li>
-                <li class="nav_item"><a href="contactme.html">Contact Me</a></li>
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='aboutme.html'>About Me</a></li>
+              <li><a class='dropdown-arrow' href='http://'>Portfolio</a>
+                <ul class='sub-menus'>
+                  <li><a href='archivescas.html'>Archives & CAS</a></li>
+                  <li><a href='ux.html'>UX Research</a></li>
+                  <li><a href='digitalhumanities.html'>Digital Humanities</a></li>
+                </ul>
+              </li>
+              <li><a href='publications.html'>Publications & Conferences</a></li>
+              <li><a href='contactme.html'>Contact Me</a></li>
             </ul>
-        </nav>
+          </nav>
     </header>
-    <div class="hello">
-        <h2>Hola! Soy Irmarie!</h2>
+    <div class= "flex-container">
+        <div class="flex-items">
+            <div class="flex-items"><h2>Hola! Soy Irmarie!</h2></div>
+            <div class="flex-items"><p>For a long time I used to swim competitively.</p></div>
+            <div class="flex-items"><p>I love pets, especially dogs.</p></div>
+            <div class="flex-items"><p>Most of my days I perform research related to accessibility and cultural sensitivity in LIS and Archival Systems.</p></div>
+            <div class="flex-items"><p>My work is inspired by my life expereinces as an afro-caribbean women living in-between places.</p></div>
+            <div class="flex-items"><p>I usually find myself thinking about how things are conected, how is the best way to organize stuff, and how things can be accesible for my own community.</p>
     </div>
-    <div class="swim_text">
-        <h3>For a long time I used to swim competitively.</h3>
-    </div>
-    <div class="dog_text">
-        <h3>I love pets, especially dogs.</h3>
-    </div>
-    <div class="venn_text">
-        <h3>Most of my days I perform research related to accessibility and cultural sensitivity in LIS and Archival Systems.</h3>
-    </div>
-    <div class="objectives_text">
-        <h3>My work is inspired by my life expereinces as an afro-caribbean women living in-between places.</h3>
-    </div>
-    <div class="island_text">
-        <h3>I usually find myself thinking about how things are conected, how is the best way to organize stuff, and how things can be accesible for my own community.</h3>
     </div>
     <footer>
         <p>Irmarie Fraticelli-Rodriguez,2020</p>
