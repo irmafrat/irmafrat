@@ -1,10 +1,35 @@
 body  {
   font-family: "monserrat",Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16pt;
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
-  background-repeat: repeat;
   background: url(../images/paper.jpg);
 }
+
+h1{
+	font-size: 2em;
+	text-align: center;
+	line-height: 2;
+  }
+  
+  h2{
+	font-size: 1.5em;
+	text-align: center;
+	padding: 5px;
+  }
+  
+  p {
+	padding: 0 30px;
+  }
+
+
+  img {
+	  height: 900px;
+	  width: 900px;
+  }
+
+/* Navbar */
 
 #menu {
 	background: #000000;
@@ -35,7 +60,7 @@ body  {
 	font-size: 16px;
 	text-transform: capitalize;
 }
-#menu a.dropdown-arrow:after {
+#menu a.dropdown {
 	content: "\23F7";
 	margin-left: 5px;
 }
@@ -112,11 +137,3 @@ body  {
   align-content: center;
 }
 
-.flex-items:nth-child(1) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
